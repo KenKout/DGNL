@@ -27,7 +27,6 @@ def abc(abc):
 
     lock = threading.Lock()
     max_retries = 3
-    output_lines = []
 
     def send_request(queue):
         global request_count
@@ -116,11 +115,6 @@ def abc(abc):
     # Execute requests in sequential order
     for chunk in chunks:
         execute_requests(chunk)
-
-    # Print the output lines
-    print("\nOutput:")
-    for line in output_lines:
-        print(line)
 
     # Calculate and display the final CPM
     cpm = calculate_cpm()
