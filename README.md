@@ -52,13 +52,13 @@ Over 130,000 data entries were potentially exposed due to this vulnerability.
 
 ## Responsible Disclosure
 
-The vulnerability was responsibly disclosed to Vietnam National University on June 29, 2023. Subsequent to the disclosure, the issue was addressed and fixed on July 30, 2023.
+The vulnerability was responsibly disclosed to Vietnam National University, Ho Chi Minh City on June 29, 2023. Subsequent to the disclosure, the issue was addressed and fixed on July 30, 2023.
 
-## Communication with Vietnam National University
+## Communication with Vietnam National University, Ho Chi Minh City
 
-The communication with Vietnam National University regarding the vulnerability was initiated on July 19, 2023. The University acknowledged the issue and subsequently resolved it.
+The communication with Vietnam National University, Ho Chi Minh City regarding the vulnerability was initiated on July 19, 2023. The University acknowledged the issue and subsequently resolved it.
 
-![Communication with Vietnam National University](https://github.com/KenKout/DGNL/assets/54569460/e6fc2821-be32-40c1-8c89-b252c1adc38d)
+![Communication with Vietnam National University, Ho Chi Minh City](https://github.com/KenKout/DGNL/assets/54569460/e6fc2821-be32-40c1-8c89-b252c1adc38d)
 
 ## Resolution Timeline
 
@@ -68,7 +68,7 @@ The communication with Vietnam National University regarding the vulnerability w
 
 ## Acknowledgment
 
-While the vulnerability was reported in good faith with the intent of enhancing system security, no acknowledgment, certificate, or bounty was provided by Vietnam National University.
+While the vulnerability was reported in good faith with the intent of enhancing system security, no acknowledgment, certificate, or bounty was provided by Vietnam National University, Ho Chi Minh City.
 
 ## Script Details
 
