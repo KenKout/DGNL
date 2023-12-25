@@ -47,6 +47,8 @@ The exposed data included:
 - Email
 - Address
 - Exam Results
+  
+Over 130,000 data entries were potentially exposed due to this vulnerability.
 
 ## Responsible Disclosure
 
