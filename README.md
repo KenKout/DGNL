@@ -72,7 +72,7 @@ While the vulnerability was reported in good faith with the intent of enhancing 
 
 ## Script Details
 
-The script sends POST requests to the vulnerable API endpoint, sequentially iterating through a range of identifiers (`maHoSoXetTuyen`). The retrieved data is then written to a file (`test.txt`), and the script displays the Count Per Minute (CPM) indicating the rate of successful requests.
+The script sends POST requests to the vulnerable API endpoint, sequentially iterating through a range of identifiers (`maHoSoXetTuyen`). The retrieved data is then written to a file (`output.txt`), and the script displays the Count Per Minute (CPM) indicating the rate of successful requests.
 
 ### Configuration
 
